@@ -28,8 +28,6 @@ header {
   background-image: url("../img/sfondo-header.png");
   background-size: cover;
   background-position: center;
-  /* Questa appena sotto non serve a nulla */
-  /* border-radius: 0 0 0 0; */
   height: calc(100%);
   position: relative;
   text-align: center;
@@ -51,11 +49,6 @@ span.pay-off {
   top: 78%;
 }
 
-
-
-
-
-
 nav {
   background-color: rgb(105,105,105);
   height: 60px;
@@ -72,10 +65,6 @@ li {
   font-size: 14px;
 }
 
-main {
-  /* margin-bottom: 10px; */
-}
-
 .fl {
   float: left;
 }
@@ -90,8 +79,6 @@ main {
   padding: 35px;
   font-size: 20px;
 }
-
-
 
 p {
   margin-top: 60px;
@@ -119,10 +106,7 @@ p {
   left: 0;
 }
 
-
-
 .fl:first-child {
-  /* width: 350px; */
   width: 25%;
   padding: 15px 30px 30px 0;
   /* background-color: black; */
@@ -134,7 +118,6 @@ p {
 }
 
 .fl:nth-child(2) {
-  /* width: 500px; */
   width: 50%;
   /* height: 500px; */
   /* background-color: black; */
@@ -147,7 +130,6 @@ p {
 }
 
 .fl:last-child {
-  /* width: 350px; */
   width: 25%;
   /* height: 500px; */
   padding: 15px 0 0 30px;
@@ -163,7 +145,6 @@ p {
 div:not(.container) {
   border-radius: 10px;
 }
-
 
 footer {
   height: 200px;
@@ -182,6 +163,4 @@ hr {
 
 .icon {
   padding: 50px 160px;
-
-
 }
