@@ -39,7 +39,6 @@ main {
 
 .fl:first-child div {
   background-color: pink;
-  width: 100%;
   height: 100%;
 }
 
@@ -57,7 +56,6 @@ main {
 }
 
 .fl:last-child div {
-  width: 100%;
   height: calc(250px - 20px);
   margin-bottom: 20px;
   background-color: pink;
