@@ -15,7 +15,6 @@ body {
 }
 
 header {
-  width: 100%;
   height: 400px;
   background-color: white;
   margin-top: 20px;
@@ -49,7 +48,6 @@ header {
 nav {
   background-color: rgb(105,105,105);
   height: 60px;
-  width: 100%;
   text-align: center;
 }
 
@@ -72,6 +70,7 @@ li {
 }
 
 .fl>div {
+  background-color: white;
   padding: 35px;
   font-size: 20px;
 }
@@ -107,19 +106,9 @@ p {
   padding: 15px 30px 30px 0;
 }
 
-.fl:first-child div {
-  background-color: white;
-  height: 100%;
-}
-
 .fl:nth-child(2) {
   width: 50%;
   padding: 15px 30px 30px 30px;
-}
-
-.fl:nth-child(2) div {
-  height: 100%;
-  background-color: white;
 }
 
 .fl:last-child {
@@ -129,7 +118,6 @@ p {
 
 .fl:last-child div {
   margin-bottom: 50px;
-  background-color: white;
 }
 
 div:not(.container) {
