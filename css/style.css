@@ -11,9 +11,18 @@
 
 header {
   width: 100%;
-  height: 200px;
+  height: 400px;
   background-color: yellow;
   margin-bottom: 10px;
+  position: relative;
+}
+
+nav {
+  background-color: blue;
+  height: 15%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
 main {
