@@ -6,8 +6,6 @@
 
 body {
   background-image: url("../img/sfondo.png");
-  /* background-size: cover;
-  background-position: center; */
 }
 
 .container {
@@ -28,7 +26,7 @@ header {
   background-image: url("../img/sfondo-header.png");
   background-size: cover;
   background-position: center;
-  height: calc(100%);
+  height: 100%;
   position: relative;
   text-align: center;
 }
@@ -41,9 +39,8 @@ header {
   transform: translate(-50%, -50%);
 }
 
-span.pay-off {
+.pay-off {
   color: white;
-  font-family: sans-serif;
   font-size: 28px;
   position: relative;
   top: 78%;
@@ -61,7 +58,6 @@ li {
   line-height: 60px;
   color: white;
   padding: 0 10px;
-  font-family: sans-serif;
   font-size: 14px;
 }
 
@@ -109,7 +105,6 @@ p {
 .fl:first-child {
   width: 25%;
   padding: 15px 30px 30px 0;
-  /* background-color: black; */
 }
 
 .fl:first-child div {
@@ -119,8 +114,6 @@ p {
 
 .fl:nth-child(2) {
   width: 50%;
-  /* height: 500px; */
-  /* background-color: black; */
   padding: 15px 30px 30px 30px;
 }
 
@@ -131,13 +124,10 @@ p {
 
 .fl:last-child {
   width: 25%;
-  /* height: 500px; */
   padding: 15px 0 0 30px;
-  /* background-color: black; */
 }
 
 .fl:last-child div {
-  /* height: calc(500px - 40px); */
   margin-bottom: 50px;
   background-color: white;
 }
