@@ -35,6 +35,7 @@ main {
   height: 350px;
   padding-right: 30px;
   padding-bottom: 30px;
+  background-color: black;
 }
 
 .fl:first-child div {
