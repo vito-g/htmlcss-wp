@@ -156,9 +156,16 @@ footer {
   color: lightgrey;
   text-align: center;
   padding: 5px;
+  margin-bottom: 20px;
 }
 
 hr {
   border: 1px solid lightgrey;
   background-color: lightgrey;
+}
+
+.icon {
+  padding: 50px 160px;
+
+
 }
