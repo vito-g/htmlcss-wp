@@ -105,6 +105,22 @@ p {
   font-weight: bold;
 }
 
+.fl:first-child h2 {
+  text-align: center;
+}
+
+.feed {
+  position: relative;
+}
+
+.fl:first-child img {
+  position: absolute;
+  top: 3px;
+  left: 0;
+}
+
+
+
 .fl:first-child {
   /* width: 350px; */
   width: 25%;
