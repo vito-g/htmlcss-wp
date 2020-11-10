@@ -45,7 +45,13 @@ main {
 .fl:nth-child(2) {
   width: 500px;
   height: 500px;
+  background-color: black;
+  padding: 30px;
+}
+
+.fl:nth-child(2) div {
   background-color: violet;
+  height: 100%;
 }
 
 .fl:last-child {
