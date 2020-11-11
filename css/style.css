@@ -59,15 +59,16 @@ li {
   font-size: 14px;
 }
 
-.fl {
-  float: left;
-}
-
 .clearfix::after {
   content: "";
   display: table;
   clear: both;
 }
+
+.fl {
+  float: left;
+}
+
 
 .fl>div {
   background-color: white;
@@ -75,20 +76,13 @@ li {
   font-size: 20px;
 }
 
-p {
-  margin-top: 60px;
-  line-height: 40px;
+div:not(.container) {
+  border-radius: 10px;
 }
 
-.fl:first-child p {
-  margin-top: 40px;
-  line-height: 20px;
-  color: green;
-  font-weight: bold;
-}
-
-.fl:first-child h2 {
-  text-align: center;
+.fl:first-child {
+  width: 25%;
+  padding: 15px 30px 30px 0;
 }
 
 .feed {
@@ -101,9 +95,20 @@ p {
   left: 0;
 }
 
-.fl:first-child {
-  width: 25%;
-  padding: 15px 30px 30px 0;
+.fl:first-child h2 {
+  text-align: center;
+}
+
+.fl:first-child p {
+  margin-top: 40px;
+  line-height: 20px;
+  color: green;
+  font-weight: bold;
+}
+
+p {
+  margin-top: 60px;
+  line-height: 40px;
 }
 
 .fl:nth-child(2) {
@@ -118,10 +123,6 @@ p {
 
 .fl:last-child div {
   margin-bottom: 50px;
-}
-
-div:not(.container) {
-  border-radius: 10px;
 }
 
 footer {
